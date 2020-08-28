@@ -1,0 +1,3 @@
+/Users/nazarko/FlutterProjects/Article_demo/my_lib/android/.cxx/cmake/profile/x86/CMakeFiles/edit_cache.dir
+/Users/nazarko/FlutterProjects/Article_demo/my_lib/android/.cxx/cmake/profile/x86/CMakeFiles/rebuild_cache.dir
+/Users/nazarko/FlutterProjects/Article_demo/my_lib/android/.cxx/cmake/profile/x86/CMakeFiles/my_lib.dir

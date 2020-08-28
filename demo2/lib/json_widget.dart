@@ -15,43 +15,53 @@ class _JsonTestState extends State<JsonTest> {
     super.initState();
     // Start test on next tick
     Future.microtask(_run);
+    //_run();
   }
 
   Future<void> _run() async {
-    var lastFrame = DateTime.now();
+    var lastFrameTime = DateTime.now().millisecondsSinceEpoch;
 
-    Stopwatch watch = Stopwatch();
-
-
+    //Stopwatch watch = Stopwatch();
     var parses = 0;
-    watch.start();
+    //watch.start();
+    //var lastTime = watch.elapsedMilliseconds;
     while (true) {
       parseJson();
-
+      parses ++ ;
       // Allow UI to update every 1s & set counter
-      //final time = DateTime.now().subtract(Duration(seconds: 1));
-      var elapsedMilliseconds = watch.elapsedMilliseconds;
-      if (elapsedMilliseconds > 1000) {
-        setState(() {
-          parsesPerSecond = parses;
-        });
+      final time = DateTime.now().millisecondsSinceEpoch;
+      if ((time - lastFrameTime) > 1000) {
+        print(parses);
+//        setState(() {
+//          parsesPerSecond = parses;
+//        });
         parses = 0;
-        watch.stop();
-        //await Future.microtask(() {});
-        watch.start();
+        lastFrameTime = time;
+        await Future.microtask(() {});
       }
+//      var elapsedMilliseconds = watch.elapsedMilliseconds;
+//      if ((elapsedMilliseconds - lastTime)  > 1000) {
+//        print(parses);
+//        setState(() {
+//          parsesPerSecond = parses;
+//        });
+//        parses = 0;
+//        lastTime = elapsedMilliseconds;
+//        await Future.microtask(() {});
+//      }
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      parsesPerSecond.toString(),
-      style: TextStyle(
-          color: Colors.black,
-          fontSize: 40.0
-      ),
-    );
+    return Container(color: Colors.red,height: 220,);
+//    return Text(
+//      parsesPerSecond.toString(),
+//      style: TextStyle(
+//          color: Colors.black,
+//          fontSize: 40.0
+//      ),
+//    );
   }
 }
 

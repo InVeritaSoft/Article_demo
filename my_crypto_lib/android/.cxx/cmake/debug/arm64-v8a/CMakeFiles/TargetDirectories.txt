@@ -1,0 +1,3 @@
+/Users/nazarko/FlutterProjects/my_crypto_lib/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/nazarko/FlutterProjects/my_crypto_lib/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/nazarko/FlutterProjects/my_crypto_lib/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/my_crypto_lib.dir

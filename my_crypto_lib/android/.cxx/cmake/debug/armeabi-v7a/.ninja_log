@@ -1,0 +1,8 @@
+# ninja log v5
+0	56	0	CMakeFiles/native_add.dir/Users/nazarko/FlutterProjects/my_crypto_lib/ios/Classes/crypto.cpp.o	fd47f6dbf6717d22
+56	84	0	/Users/nazarko/FlutterProjects/my_crypto_lib/example/build/my_crypto_lib/intermediates/cmake/debug/obj/armeabi-v7a/libnative_add.so	dd4c70de27121c8c
+0	90	0	CMakeFiles/crypto.dir/Users/nazarko/FlutterProjects/my_crypto_lib/ios/Classes/crypto.cpp.o	69ca0cbbd8d3252d
+90	122	0	/Users/nazarko/FlutterProjects/my_crypto_lib/example/build/my_crypto_lib/intermediates/cmake/debug/obj/armeabi-v7a/libcrypto.so	7d41f6580c3b55a1
+0	375	0	CMakeFiles/my_crypto_lib.dir/Users/nazarko/FlutterProjects/my_crypto_lib/ios/Classes/crypto.cpp.o	958959c5646934df
+375	452	0	/Users/nazarko/FlutterProjects/my_crypto_lib/example/build/my_crypto_lib/intermediates/cmake/debug/obj/armeabi-v7a/libmy_crypto_lib.so	2fb368328a88c858
+8	2851	0	/Users/nazarko/FlutterProjects/my_crypto_lib/example/build/my_crypto_lib/intermediates/cmake/debug/obj/armeabi-v7a/libmy_crypto_lib.so	2fb368328a88c858

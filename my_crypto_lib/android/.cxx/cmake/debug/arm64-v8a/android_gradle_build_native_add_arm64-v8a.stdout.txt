@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/native_add.dir/Users/nazarko/FlutterProjects/my_crypto_lib/ios/Classes/crypto.cpp.o
+[2/2] Linking CXX shared library /Users/nazarko/FlutterProjects/my_crypto_lib/example/build/my_crypto_lib/intermediates/cmake/debug/obj/arm64-v8a/libnative_add.so

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/nazarko/FlutterProjects/Article_demo/my_lib/android/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/nazarko/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/nazarko/FlutterProjects/Article_demo/my_lib/android/.cxx/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "my_lib-Debug-x86": {
+      "artifactName": "my_lib",
+      "buildCommand": "/Users/nazarko/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/nazarko/FlutterProjects/Article_demo/my_lib/android/.cxx/cmake/debug/x86 --target my_lib",
+      "abi": "x86",
+      "output": "/Users/nazarko/FlutterProjects/Article_demo/my_lib/example/build/my_lib/intermediates/cmake/debug/obj/x86/libmy_lib.so"
+    }
+  }
+}

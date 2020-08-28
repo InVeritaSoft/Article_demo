@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - my_lib (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - my_lib (from `.symlinks/plugins/my_lib/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  my_lib:
+    :path: ".symlinks/plugins/my_lib/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  my_lib: f4387d7f596c0e1972e16c2e9e809ce1577bdd82
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.9.3
